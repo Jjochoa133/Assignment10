@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Ochoa Portfolio</title>
+    <link rel="stylesheet" href="style-main.css">
+    <style>
+        body{
+            margin:0;
+            justify-content:center;
+        }
+
+        .container{
+            width:100vw;
+            height:100vh;
+
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight:bold;
+            font-size: 20px;
+
+            display:grid;
+
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 50px 1fr 1fr 1fr 85px;
+
+            gap:10px;
+            padding:10px;
+            box-sizing:border-box;
+        }
+
+
+
+        .header{
+            grid-column-start:1;
+            grid-column-end:5;
+            margin: -35px;
+        }
+
+        .main-nav{
+            grid-column-start:1;
+            grid-column-end:4;
+            grid-row-start:2;
+            
+        }
+
+        .content-big{
+            grid-row-start:3;
+            grid-row-end:3;
+            grid-column-start: 1;
+            grid-column-end:3;
+            padding:10px;
+            border: 1px solid black;
+        }
+
+        .content-small{
+            grid-row-start:3;
+            grid-row-end:3;
+            border: 1px solid black;
+        }
+
+        .othercontent{
+            grid-row-start:4;
+            grid-row-end:4;
+            border: 1px solid black;
+        }
+
+        .footer {
+grid-column: 1 / 3;
+grid-column-start: 1;
+grid-column-end: 3 span;
+padding:10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+         <h1>Virtual News</h1>
+        </div>
+
+        <section class ="main-nav">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+        </section>
+        <div class="content-big">
+            <img src="images/image2.jpg" alt="hug">
+            <h2> The Greatest Dogs on earth are coming to town!</h2>
+
+            <p> Ever wanted to see some amazing dogs coming to a town near you? Well come over to Raleigh, NC to visit the most amazing dogs coming over to visit you today!</p>
+
+        </div>
+        <div class="content-small">
+
+            <img src="images/image5.jpg" alt="hug">
+
+            <h3> Did you know hugs can improve your health?</h3>
+
+            <p> You've heard that right. Hugs increase your health and improve your mentality as well as a human being! Well deserved for those who are lonely.</p>
+
+        </div>
+        <div class="othercontent">
+            <img src="images/image1.jpg" alt="newspaper">
+            <h3> Newspapers could pontentially end? Virtual coming! </h3>
+
+            <p> Trees are coming down as speak, we might lose the one thing we hold dear to our hearts! Oh no!</p>
+        </div>
+        <div class="othercontent">
+
+            <img src="images/image3.jpg" alt="genz">
+            <h3> The new generation is amazing in coding!</h3>
+
+            <p> The New generation are learning new things to handle the issues with our generation!</p>
+        </div>
+        <div class="othercontent">
+            <img src="images/image4.jpg" alt="magazines">
+            <h3> Magazines are Great and Should be checked out!</h3>  
+
+            <p> Magazines seem to slowly falling off the shelves and introducing new ones into our lives!</p>
+        </div>
+        <div class="footer">Check us out at here!
+
+            <a href="https://wcet.waketech.edu/jjochoa1/WEB210/Lesson06/Resumingassignment/Assignment3Start/index.html">JustinOchoa.com</a>
+        </div>
+    </div>
+</body>
+</html>
